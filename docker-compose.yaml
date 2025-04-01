@@ -11,3 +11,15 @@ services:
       POSTGRES_DB: mydatabase
     ports:
       - "5432:5432"
+
+#  intro-spring-app:
+#    container_name: intro-spring-app
+#    build:
+#      dockerfile: ./Dockerfile
+#      args:
+#        profile: local
+#    ports:
+#      - 8080:8080
+#      - 5005:5005
+#    depends_on:
+#      - postgres
